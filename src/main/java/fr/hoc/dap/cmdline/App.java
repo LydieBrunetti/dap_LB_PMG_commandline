@@ -14,6 +14,7 @@ import java.net.URL;
  */
 public class App {
 
+    //TODO lbpmg by Djer |POO| Ici il s'agit dune "vrai" classe utilitaire, le constructeur devrait etre prvié, et la classe "final" (non héritable)
     public App() {
     }
 
@@ -37,8 +38,6 @@ public class App {
         }
 
         System.out.println("Bienvenue sur DAP ! Vous avez demandé : " + action + " " + userKey);
-        // TODO Auto-generated method stub
-
         /*
          * Scanner sc = new Scanner(System.in); System.out.println("Veuillez saisir votre user Key :"); String str =
          * sc.nextLine(); System.out.println("Vous avez saisi : " + str);
